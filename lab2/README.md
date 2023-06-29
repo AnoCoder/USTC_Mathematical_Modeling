@@ -10,7 +10,7 @@
 
 ## 2. DWT 
 
-* 该目录下实现基于离散小波变换的图像压缩算法，代码实现参考了[这里][https://github.com/NamitS27/Image-Compression-DWT]，并对一些部分做了修改。进入该目录后可以看到：
+* 该目录下实现基于离散小波变换的图像压缩算法，代码实现参考了[这里](https://github.com/NamitS27/Image-Compression-DWT)，并对一些部分做了修改。进入该目录后可以看到：
 * 其中 `Compressed_Images` 保存压缩后的图片，`get_coeff`和`output`为辅助函数，`app`相当于**main**函数，测试时进入`app.py`并运行即可
 * 运行 `app.py`后，会让您选择图片，支持对同种类型的图片多选(代码目前只支持`.bmp`, `.jpg`图片格式)，选中后运行即可
 
